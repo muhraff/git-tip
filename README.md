@@ -1,5 +1,4 @@
 # Git Tips
-============
 
 ### Getting & Creating Projects
 
