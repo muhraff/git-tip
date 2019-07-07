@@ -2,6 +2,8 @@
 
 Use this handy git comments and guide to enhance your workflow. :) 
 
+Inspired by: https://www.atlassian.com/git , https://learngitbranching.js.org/
+
 ### Getting & Creating Projects
 
 | Command | Description |
