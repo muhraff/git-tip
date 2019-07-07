@@ -1,5 +1,7 @@
 # Git Tips
 
+Use this handy git comments and guide to enhance your workflow. :) 
+
 ### Getting & Creating Projects
 
 | Command | Description |
