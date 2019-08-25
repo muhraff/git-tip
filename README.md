@@ -61,3 +61,9 @@ Inspired by: https://www.atlassian.com/git , https://learngitbranching.js.org/
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
+### Git Configuration
+| Command | Description |
+| ------- | ----------- |
+| `git config` | Congiure Username and Email used in code commit |
+| `git log --summary` | View changes (detailed) |
+| `git config --global user.name "Your Name"` | Congiure Username |
