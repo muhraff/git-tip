@@ -65,5 +65,5 @@ Inspired by: https://www.atlassian.com/git , https://learngitbranching.js.org/
 | Command | Description |
 | ------- | ----------- |
 | `git config` | Congiure Username and Email used in code commit |
-| `git log --summary` | View changes (detailed) |
+| `git config --list` | View your Git configuration |
 | `git config --global user.name "Your Name"` | Congiure Username |
