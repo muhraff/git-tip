@@ -67,3 +67,16 @@ Inspired by: https://www.atlassian.com/git , https://learngitbranching.js.org/
 | `git config` | Congiure Username and Email used in code commit |
 | `git config --list` | View your Git configuration |
 | `git config --global user.name "Your Name"` | Congiure Username |
+
+### Rename a Git Branch - Local
+| Command | Description |
+| ------- | ----------- |
+| `git branch -m new-name` | If you are on the branch you want to rename, give new name |
+| `git branch -m old-name new-name` | If you are on a different branch, give old name for the branch and the new one |
+
+### Rename a Git Branch - Remote
+ First do the same as rename a git branch - Local
+| Command | Description |
+| ------- | ----------- |
+| `git push origin :old-name new-name` | Delete the remote branch with the old name and push the new branch to the remote repository |
+| `git push origin -u new-name` | Reset the upstream branch for the new-name local branch |
