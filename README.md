@@ -75,7 +75,7 @@ Inspired by: https://www.atlassian.com/git , https://learngitbranching.js.org/
 | `git branch -m old-name new-name` | If you are on a different branch, give old name for the branch and the new one |
 
 ### Rename a Git Branch - Remote
- First do the same as rename a git branch - Local
+### First do the same as rename a git branch - Local
 | Command | Description |
 | ------- | ----------- |
 | `git push origin :old-name new-name` | Delete the remote branch with the old name and push the new branch to the remote repository |
