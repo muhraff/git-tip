@@ -40,6 +40,15 @@ Inspired by: https://www.atlassian.com/git , https://learngitbranching.js.org/
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
+## Rename a Git Branch – Local
+Rename a Git branch with the -m command option
+`git branch -m new-name`
+
+Rename a Git branch from another branch
+`git branch -m old-name new-name`
+
+
+
 ### Sharing & Updating Projects
 
 | Command | Description |
