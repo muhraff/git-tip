@@ -42,9 +42,11 @@ Inspired by: https://www.atlassian.com/git , https://learngitbranching.js.org/
 
 ## Rename a Git Branch – Local
 Rename a Git branch with the -m command option
+
 `git branch -m new-name`
 
 Rename a Git branch from another branch
+
 `git branch -m old-name new-name`
 
 
