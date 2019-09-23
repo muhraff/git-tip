@@ -80,3 +80,8 @@ Inspired by: https://www.atlassian.com/git , https://learngitbranching.js.org/
 | ------- | ----------- |
 | `git push origin :old-name new-name` | Delete the remote branch with the old name and push the new branch to the remote repository |
 | `git push origin -u new-name` | Reset the upstream branch for the new-name local branch |
+
+### Find the Git Repository URL
+| Command | Description |
+| ------- | ----------- |
+| `git config --get remote.origin.url` | gives Repository URL in a format similar to: git@github.com:<user>/<project>.git or ssh://git@github.com:<port>/<user>/<project>.git |
