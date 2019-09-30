@@ -85,3 +85,9 @@ Inspired by: https://www.atlassian.com/git , https://learngitbranching.js.org/
 | Command | Description |
 | ------- | ----------- |
 | `git config --get remote.origin.url` | gives Repository URL in a format similar to: git@github.com:<user>/<project>.git or ssh://git@github.com:<port>/<user>/<project>.git |
+
+
+### Delete .git/index.lock file
+| Command | Description |
+| ------- | ----------- |
+| `rm -f .git/index.lock` | deletes the existing index.lock file |
