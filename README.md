@@ -11,6 +11,16 @@ Inspired by: https://www.atlassian.com/git , https://learngitbranching.js.org/
 | `git init`                                                        | Initialize a local Git repository          |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
+### Clone to existing directory
+
+Form your existing directory
+
+| Command                                                        | Description                                 |
+| -------------------------------------------------------------- | ------------------------------------------- |
+| `git init`                                                     | Initialize a local Git repository           |
+| `git remote add origin [https|ssh:path/to/the/repository.git]` | Add the remote from where you want to clone |
+| `git pull origin master`                                       | Pull and merge with local git               |
+
 ### Basic Snapshotting
 
 | Command                            | Description                                       |
